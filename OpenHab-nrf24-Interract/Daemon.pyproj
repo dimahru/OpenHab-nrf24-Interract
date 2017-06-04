@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e30e08ea-f325-4d77-8bca-79de12bad890</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>OpenHab_nrf24_Interract.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Daemon.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>OpenHab-nrf24-Interract</Name>
+    <Name>Daemon</Name>
     <RootNamespace>OpenHab-nrf24-Interract</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="OpenHab_nrf24_Interract.py" />
+    <Compile Include="Daemon.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
